@@ -1,0 +1,171 @@
+body {
+	background-color: #eee;
+}
+
+section,.section-div{margin: 0;padding: 0;width: 100%;display: block;background-size: cover;background-position: 50% 50%;}
+.pad-und-lg{padding: 100px 0 100px 0;}
+.pad-und-md{padding: 70px 0 70px 0;}
+.pad-und-sm{padding: 40px 0 40px 0;}
+.pad-und-xs{padding: 20px 0 20px 0;}
+.pad-und-xxs{padding: 10px 0 10px 0;}
+.display-none {display: none;}
+.down-head {margin-top: 80px;}
+.embedbg{background-size: cover; background-position: 50% 50%;}
+
+/* Home */
+
+#main-bp {
+	height: 100vh;
+	position: relative;
+	z-index: 1;
+}
+
+#main-bp .overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #386FA4;
+	opacity: 0.7;
+	z-index: 2;
+}
+
+#main-bp .col {
+	position: relative;
+	z-index: 3;
+}
+
+#main-bp ul.menu li {
+	list-style-type: none;
+	float: right;
+	margin: 1cm;
+}
+
+#main-bp ul.menu li a {
+	color: white;
+	transition: 200ms;
+	position: relative;
+	z-index: 2;
+}
+
+#main-bp a.button {
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 12px;
+	color: white;
+	text-align: center;
+}
+
+#main-bp a.button:hover {
+	background-color: white;
+	color: #386FA4;
+}
+
+#main-bp .s12 a.button {
+    margin: 2cm auto;
+    display: block;
+    max-width: 200px;
+}
+
+#main-bp .slogan {
+	max-width: 100%;
+	margin-top: 2cm;
+}
+
+.modal-content img {
+	max-width: 100%;
+}
+
+/* Home */
+
+/* Webapp */
+
+#back-blue {
+	position: fixed;
+	z-index: 0;
+	background-color: #386FA4;
+	height: 200px;
+}
+
+.card h5 {
+	margin-left: 1cm; 
+}
+
+/* Webapp */
+
+
+.loader h6 {
+	text-align: center;
+	color: #26A69A;
+	font-weight: bolder;
+}
+
+.spinner {
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+	display: block;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+/*
+#393E41
+#D3D0CB
+#26A69A
+#E7E5DF
+#386FA4
+
+
+/* Coolors Exported Palette - coolors.co/393e41-d3d0cb-26a69a-e7e5df-386fa4 */
+
+/* HSL */
+/*
+$color1: hsla(203%, 7%, 24%, 1);
+$color2: hsla(38%, 8%, 81%, 1);
+$color3: hsla(174%, 63%, 40%, 1);
+$color4: hsla(45%, 14%, 89%, 1);
+$color5: hsla(209%, 49%, 43%, 1);
+*/
+/* RGB */
+/*
+$color1: rgba(57, 62, 65, 1);
+$color2: rgba(211, 208, 203, 1);
+$color3: rgba(38, 166, 154, 1);
+$color4: rgba(231, 229, 223, 1);
+$color5: rgba(56, 111, 164, 1);
+*/
